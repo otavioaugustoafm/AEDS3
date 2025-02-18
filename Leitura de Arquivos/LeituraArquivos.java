@@ -7,7 +7,7 @@ import java.io.FileInputStream;
 public class LeituraArquivos {
     public static void main(String[] args) {
         Livro l1 = new Livro(1, "Eu, Robô","Isaac Asimov", 14.9F);
-        Livro l2 = new Livro(2, "Eu Sou A Lenda","Richard Matherson", 21.99F);
+        Livro l2 = new Livro(2, "Eu Sou A Lenda","Richard Matheson", 21.99F);
         Livro l3 = new Livro(3, "Teste Título", "Teste Autor", 50.9F);
 
         FileOutputStream arq;
